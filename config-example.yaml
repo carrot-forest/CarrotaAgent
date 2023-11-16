@@ -1,0 +1,25 @@
+feishu:
+- bot_id: "feishu_1"
+  bot_name: "carrota-test"
+  app_id: <app_id>
+  app_secret: <app_secret>
+  encrypt_key: <encrypt_key>
+  verification_token: <verification_token>
+  callback_api: /webhook/feishu/carrota-test
+- bot_id: "feishu_2"
+  bot_name: "carrota"
+  app_id: <app_id>
+  app_secret: <app_secret>
+  encrypt_key: <encrypt_key>
+  verification_token: <verification_token>
+  callback_api: /webhook/feishu/carrota
+plugincenter:
+  ip: <ip>
+  port: <port>
+  api:
+    base: "/api/v1"
+    message_report: "/message"
+api:
+  base: "/api"
+  message_send: "/message/send"
+port: <port>
